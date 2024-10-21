@@ -1,0 +1,247 @@
+.title {
+  font-weight: 100;
+  font-size: 152px;
+  color: #c26178;
+  opacity: 0.3;
+}
+
+.todos-content {
+  text-align: center;
+  box-shadow: 2px 5px 10px 0 #00000050;
+}
+
+.new-task {
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.input-task {
+  padding: 60px 12px 60px 80px;
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+
+  font-weight: normal;
+  font-style: italic;
+  font-size: 48px;
+  color: #00000090;
+}
+
+.input-task::placeholder {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 48px;
+  color: #00000090;
+  opacity: 0.3;
+}
+
+.arrow-down {
+  position: absolute;
+  left: 17px;
+  top: 40px;
+  width: 40px;
+  height: 40px;
+  opacity: 0.15;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  padding: 30px 10px;
+  gap: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 3px;
+}
+
+.task-mark {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #00000050;
+  border-radius: 50%;
+  color: transparent;
+}
+
+.task-mark-done {
+  font-size: 36px;
+  color: rgba(77, 186, 84, 0.928);
+}
+
+.task-name {
+  font-weight: normal;
+  font-size: 48px;
+  color: #00000090;
+}
+
+.task-name-done {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  opacity: 0.3;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 24px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #00000050;
+
+  font-weight: normal;
+  font-size: 30px;
+  color: gray;
+}
+
+.footer-tasks {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-all:hover,
+.footer-active:hover,
+.footer-completed:hover,
+.footer-clear:hover {
+  color: #000000;
+  cursor: pointer;
+}
+
+.footer-item-on {
+  border: 1px solid #c26178;
+  padding: 7px 10px;
+}
+
+.bottom-line1 {
+  margin: 0 auto;
+  width: calc(100% - 15px);
+  height: 10px;
+  border: 1px solid #00000050;
+  background-color: #FFFFFF90;
+}
+
+.bottom-line2 {
+  margin: 0 auto;
+  width: calc(100% - 30px);
+  height: 10px;
+  border: 1px solid #00000050;
+  background-color: #FFFFFF10;
+  box-shadow: 0px 3px 10px -2px #00000090;
+}
+
+@media screen and (max-width: 892px) {
+  .input-task {
+    padding: 60px 12px 60px 70px;
+  }
+
+  .input-task,
+  .input-task::placeholder,
+  .task-name {
+    font-size: 36px;
+  }
+
+  .arrow-down {
+    top: 45px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .task-name-done {
+    opacity: 0.4;
+  }
+
+  .task-mark {
+    width: 40px;
+    height: 40px;   
+  }
+
+  .task-mark-done {
+    font-size: 28px;    
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .title {
+    font-size: 92px;
+    opacity: 0.4;
+  }
+
+  .task {
+    gap: 10px;
+  }
+
+  .input-task {
+    padding: 45px 12px 45px 45px;
+  }
+
+  .input-task::placeholder {
+    opacity: 0.4;
+  }
+
+  .input-task,
+  .input-task::placeholder,
+  .task-name {
+    font-size: 24px;
+  }
+
+  .arrow-down {
+    top: 35px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .task-mark {
+    width: 25px;
+    height: 25px;   
+  } 
+
+  .task-mark-done {
+    font-size: 15px;    
+  }
+
+  .footer {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 82px;
+    opacity: 0.4;
+  }
+
+  .input-task {
+    padding: 25px 12px 25px 40px;
+  }
+
+  .input-task,
+  .input-task::placeholder,
+  .task-name {
+    font-size: 14px;
+  }
+
+  .arrow-down {
+    top: 22px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .task {    
+    padding: 20px 10px;
+    gap: 10px;  
+  }
+
+  .task-mark {
+    width: 20px;
+    height: 20px;   
+  } 
+
+  .task-mark-done {
+    font-size: 12px;    
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}
