@@ -18,7 +18,7 @@
 
 .input-task:focus,
 .new-task:hover {
-    outline: 1px solid #B4A9FF;    
+    outline: 1px solid #c26178 ;    
 }
 
 .input-task {
