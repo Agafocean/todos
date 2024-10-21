@@ -16,6 +16,11 @@
   margin-bottom: 4px;
 }
 
+.input-task:focus,
+.new-task:hover {
+    outline: 1px solid #B4A9FF;    
+}
+
 .input-task {
   padding: 60px 12px 60px 80px;
   width: 100%;
