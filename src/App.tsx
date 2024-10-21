@@ -54,7 +54,12 @@ function App() {
         )}
 
         <div className="footer">
-          <p className="footer-left">{tasks.filter(task => !task.isDone).length + " items left"}</p>
+          <div>
+            <p className="footer-left">
+              {String(tasks.filter(task => !task.isDone).length).padStart(4, " ")}
+            </p>
+            <span>items left</span>
+          </div>
           <div className="footer-tasks">
             <p className={`footer-all ${showAll && "footer-item-on"}`}
               onClick={() => setShowAll(true)}>All</p>
