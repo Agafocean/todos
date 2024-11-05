@@ -2,7 +2,7 @@
   font-weight: 100;
   font-size: 152px;
   color: #c26178;
-  opacity: 0.3;
+/*  opacity: 0.3;*/
 }
 
 .todos-content {
@@ -88,7 +88,7 @@
 .task-name-done {
   text-decoration: line-through;
   text-decoration-thickness: 3px;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .footer {
@@ -167,7 +167,7 @@
   }
 
   .task-name-done {
-    opacity: 0.4;
+  /*  opacity: 0.4;*/
   }
 
   .task-mark {
@@ -183,7 +183,7 @@
 @media screen and (max-width: 692px) {
   .title {
     font-size: 92px;
-    opacity: 0.4;
+  /* opacity: 0.4;*/
   }
 
   .task {
@@ -195,7 +195,7 @@
   }
 
   .input-task::placeholder {
-    opacity: 0.4;
+   /* opacity: 0.4;*/
   }
 
   .input-task,
@@ -227,7 +227,7 @@
 @media screen and (max-width: 500px) {
   .title {
     font-size: 82px;
-    opacity: 0.4;
+  /*  opacity: 0.4;*/
   }
 
   .input-task {

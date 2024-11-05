@@ -1,5 +1,5 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
+/*
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat-Thin"), url("../fonts/Montserrat-Thin.woff2") format("woff2"),
@@ -26,10 +26,9 @@
   font-style: italic;
   font-display: swap;
 }
-
+*/
 body {
-  margin: 0;
- /* padding: 20px;*/
+  margin: 0; 
 }
 
 #root {
