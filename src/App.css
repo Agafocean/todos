@@ -39,7 +39,7 @@
   font-style: italic;
   font-size: 48px;
   color: #00000090;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .arrow-down {
@@ -48,7 +48,7 @@
   top: 40px;
   width: 40px;
   height: 40px;
-  opacity: 0.15;
+  opacity: 0.3;
 }
 
 .task {
@@ -237,7 +237,7 @@
   .input-task,
   .input-task::placeholder,
   .task-name {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .arrow-down {
@@ -261,6 +261,6 @@
   }
 
   .footer {
-    font-size: 12px;
+   /* font-size: 12px;*/
   }
 }
