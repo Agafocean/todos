@@ -2,7 +2,6 @@
   font-weight: 100;
   font-size: 152px;
   color: #c26178;
-/*  opacity: 0.3;*/
 }
 
 .todos-content {
@@ -18,7 +17,7 @@
 
 .input-task:focus,
 .new-task:hover {
-    outline: 1px solid #c26178 ;    
+  outline: 1px solid #c26178;
 }
 
 .input-task {
@@ -106,14 +105,14 @@
   color: gray;
 }
 
-.footer-left {    
+.footer-left {
   display: inline-block;
   width: 4ch;
-  font-variant-numeric: tabular-nums;    
+  font-variant-numeric: tabular-nums;
   white-space: pre;
 }
 
-.footer-tasks {  
+.footer-tasks {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -166,24 +165,19 @@
     height: 30px;
   }
 
-  .task-name-done {
-  /*  opacity: 0.4;*/
-  }
-
   .task-mark {
     width: 40px;
-    height: 40px;   
+    height: 40px;
   }
 
   .task-mark-done {
-    font-size: 28px;    
+    font-size: 28px;
   }
 }
 
 @media screen and (max-width: 692px) {
   .title {
     font-size: 92px;
-  /* opacity: 0.4;*/
   }
 
   .task {
@@ -192,10 +186,6 @@
 
   .input-task {
     padding: 45px 12px 45px 45px;
-  }
-
-  .input-task::placeholder {
-   /* opacity: 0.4;*/
   }
 
   .input-task,
@@ -212,11 +202,11 @@
 
   .task-mark {
     width: 25px;
-    height: 25px;   
-  } 
+    height: 25px;
+  }
 
   .task-mark-done {
-    font-size: 15px;    
+    font-size: 15px;
   }
 
   .footer {
@@ -227,7 +217,6 @@
 @media screen and (max-width: 500px) {
   .title {
     font-size: 82px;
-  /*  opacity: 0.4;*/
   }
 
   .input-task {
@@ -246,21 +235,17 @@
     height: 15px;
   }
 
-  .task {    
+  .task {
     padding: 20px 10px;
-    gap: 10px;  
+    gap: 10px;
   }
 
   .task-mark {
     width: 20px;
-    height: 20px;   
-  } 
-
-  .task-mark-done {
-    font-size: 12px;    
+    height: 20px;
   }
 
-  .footer {
-   /* font-size: 12px;*/
+  .task-mark-done {
+    font-size: 12px;
   }
 }
